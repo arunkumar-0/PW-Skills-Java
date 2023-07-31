@@ -1,0 +1,47 @@
+﻿Q1 . What is Git ? 
+
+
+Ans : Git is a version control system which helps to maintain our code remotely .It helps to track files .
+
+
+Q2. What do you understand by the term “Version control System”?
+
+
+Ans : version control system is a system which helps to commit and update changes from the local system to a server so that developers can work collaboratively . 
+There are two types of version control system : 
+1.  Centralised version control system
+2. Distributed version control system
+
+
+Q3. What is GitHub?
+
+
+Ans : Github is a git server tool which makes a repository on the internet .
+
+
+Q4. Mention some popular Git hosting services?
+
+Ans : Github 
+         GitLab 
+         BitBucket
+         SourceForge
+
+
+Q5. Different types of version Control systems ?
+Ans : There are three types of version control system : 
+1. Centralised Version Control system : repositories are made on server and developers commit and update their changes . The main reliability is on the central server if the central server crashes then the whole code will be deleted. Moreover , the network is important for a centralised control system . 
+2. Distributed version control system : In distributed version control systems there is a local repository of the developer in the developer system before pushing the code to the server the developer needs to commit it to the local repository . 
+3. Local version control system : Local version control systems have a database that stores all file changes under revision control on disc
+
+
+Q6. What benefits come with using GIT?
+Ans: Project collaboration is easy on git 
+        Distributed version control save the repository even if it is deleted from the server 
+        All changes with commit are saved so that developer can understand the code 
+       
+Q7. What is a Git repository?
+Ans : repository is a place where all the files are kept .
+
+
+Q8. How can you initialise a repository in Git?
+Ans : git init  command is to initialise a repository .
