@@ -1,0 +1,42 @@
+﻿Q1 . How to create an object in java ? 
+Ans : The most common method to create objects in java is with a new keyword . There two things about a object what it does and what it knows. What is does is  method and what it knows is variable .
+Syntax : Text obj = new obj();
+
+
+Q2. What is the use of a New keyword in Java?
+Ans : New keyword is used to create an instance of an object . In the heap area it allocates a memory and the reference of that memory is returned in the stack area .
+
+
+Q3. What are the different types of variables in Java?
+Ans : There are three type of variable in java 
+1.  Instance variable - created inside the clas but outside the method 
+2. Local Variable : create in class and inside the method no default value is allocated to them . 
+3. Static variable : variable belongs to the class itself rather than to any specific instance of the class.
+
+
+Q4.What is the difference between Instance variables and Local variables?
+Ans : 
+Instance variable : 
+1. Created inside class but outside method 
+2. Default value is given in this case such as default value of string in null and integer is 0 
+3. Value of the variable is varied from object to object .
+4. They are created at the time of object creation and destroyed at the time of object destruction
+5. The memory area allocated to them is heap 
+6. There will be no error in declaring them without assigning the value 
+7. For every object separate copy of instance variable is created 
+
+
+Local Variable : 
+1. The memory allocation given to them is stack 
+2. They are created as a part of block execution 
+3. There is no default value given to the local variable 
+4. They are created inside the method 
+5. The access area of local variable is method only 
+
+
+Q5 . In which area memory is allocated for instance variable and local variable?
+Ans : the memory allocated to instance variable is heap and the memory allocated to local variable is stack . 
+
+
+Q6 . What is method overloading?
+Ans : When two or more methods have same name but the return type of number of arguments are different that it is called method overloading
