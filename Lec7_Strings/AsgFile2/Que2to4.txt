@@ -1,0 +1,27 @@
+Que2 How do you concatenate two strings in java and give example 
+Ans : Strings can be concatenated by two ways :
+1. By using + operator 
+2. String.concat() method
+Example :
+by using string.concat();
+
+ String s1 = new String("PW");
+         s1 = s1.concat("skill");
+          system.out.println(s1);
+
+By using + operator 
+string str = "PW" ;
+string str1 = "skills"
+string str3 = str + str1 ;
+
+Que3 : How do you find the length of a string in Java Explain with an Example ?
+Ans: the length of string can be found using the length method : 
+string s1 = "arun"
+int lenght = s1.length();
+
+Que4 : How do you compare two strings in Java?
+Ans : strings in java can be compared by two ways : 
+1. By == operator :  it compares the refrence of the object 
+2. by equals() method : it compares the content of two objects 
+
+

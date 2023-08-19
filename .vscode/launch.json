@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile4.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile4.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile4.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile4.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile4.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile2.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile2.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "ArrayandObjects.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "ArrayandObjects.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "ArrayandObjects.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "ArrayandObjects.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "ArrayandObjects.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1(1)",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile1.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2(1)",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile1.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2(2)",
+            "request": "launch",
+            "mainClass": "Lec7_Strings.AsgFile3.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        }
+    ]
+}
