@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Practical_Asg.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Practical_Asg.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Practical_Asg.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Practical_Asg.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Practical_Asg.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
             "name": "Que5",
             "request": "launch",
             "mainClass": "Lec7_Strings.AsgFile4.Que5",

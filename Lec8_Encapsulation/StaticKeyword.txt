@@ -1,0 +1,60 @@
+Q1. why do we need static keyword in java programming ? 
+Ans : Static keyword is used for memory management in java . 
+It can be applied to method , variable and block . 
+It is different from other access modifiers such as public , private and protected . 
+static method need not any object for it's execution they can be directly accessed by class name . 
+static block and static variable are initialised at the time of class loading . 
+once static keyword is used that it's  value will remain same throughout the program .
+static method , variable and block are object independent . 
+
+Q2. What is class loading and how does the Java program actually executes?
+Ans : The process of loading class file into JVM at runtime is called class loading . It is responsible for loading various classes from various sources suchas file system , network and database and making available for JVM for execution . the process of class loading is divided into three phases loading , linking and initialization . 
+loading is the phase where classloader locates the file . 
+linking is the phase where JVM perform operation on the class object . 
+Execution is the process where JVM initialize the class variable with the default value . 
+
+Q3. Can we mark a local variable as static?
+Ans : In order to make a varible static we need to use static keyword so , we can not makr local variable as static. 
+
+Q4.  Why is a static method also called a class method?
+Ans: Static method is also called as class varible because it can be accessed by class name directly without any use of the object . 
+Static method are object independent so , they are called class method . 
+
+Q5. Why is the static block executed before the main method in java?
+Ans : Whenever we use static keyword than that is object independent and we need not to make object in the main method . 
+The memory for static block is given at the time of class loading so , static block is executed before main method . 
+
+Q6. What is the use of static keyword Explain with an example
+Ans: static keyoword is used for memory management . when we need to use a thing at multiple places with same value than we use static keyword . whenever static keyword is used than that belongs to class rather than the object of that class . They are initialised at the time of class loading . 
+example : 
+
+class Demo { 
+    static int n; 
+    static int m ; 
+
+    static{
+        system.out.println("static block")
+        n = 10 ;
+        m = 12 ;
+     }
+    static void display (){
+        system.out.println("static method")
+    }
+}
+class StaticMethod {
+public static void main (String[] args){
+    Demo.display();
+}
+}
+
+Q7. What is the difference between static variable and instance variable ? 
+Ans : instance variable are created inside the class and outside the method and static varible are created using static keyword 
+static varible are object independent and instance varib are object dependent . 
+The value of static variable remains same throughout the program but the value of instance variable varies from object to object . 
+static variable are initialized at the time of class loading and instance variable are initialized at the time of object creation 
+
+Q8 what is the difference between the static and non-static member of the class ? 
+Ans: static member are class member and non-static member are object member . 
+the memory is allocated at the time of class loading for static member and memory is allocated at the time of object creation . 
+the value of static variable remain same throughout the program and the value of instance variable varies from object to object . 
+for static varible we need to use static keyword 
