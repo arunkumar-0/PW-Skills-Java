@@ -1,0 +1,80 @@
+1. What is Inheritance in Java?
+Ans: Inheritance is the ablity of a class to acquire the properties of the another class . The class which acuire the properties is called child class and from which class it inherit the properties is called parent class . 
+It helps in reusability of the code . 
+Constructor and private members do not participate in the inheritance 
+
+2. What is superclass and subclass?
+Ans : The class which acquire the properties of another class than that class is called as Subclass 
+The class from which the properties are inherited than that class is called as super class 
+
+3. How is Inheritance implemented/achieved in Java?
+Ans: To achieve inheritance in java we use the keyword "extends" . extends keyword is used with the child class along with the parent class for example : class child extends parent .
+another keyowrd used for inheritance is implement keyword which is used to develop inheritance between class and interface 
+
+4. What is polymorphism?
+Ans : Poly stands for many and morphism means forms . polymorphism means when one thing have more than one forms. 
+there are two types of polymorphism Static polymorphism and dynamic polymorphism . polymorphism that exists at compile time is called static polymorphism and polymorphsm that exists at runtime is called dynamic polymorphism.
+
+5. Differentiate between method overloading and method overriding.
+Ans : 1. when there are multiple methods with same name but with Different parameters than is is method overloading and When there is single method with same name , return type and arguments and it is modified by the child class than that is called method overriding.
+2 . There must be a child class for overriding the method and for overloading the method there is no need for chil class or inheritance . 
+3. overriding is the process of replacing the current method functionality and In overloading all the methods have their own functionality. 
+4. Method overriding implements runtime polymorphism and method overloading implements compile time polymorphism . 
+5. overriding occurs between child class and parent class , overloading occurs between methods of same class . 
+
+6.  What is an abstraction explained with an Example?
+Ans : abstraction is the process of hiding the unwanted information from the user and showing necessary information to the end user . Abstract methods are those methods are those methods which have no implementation or body they have overriding by the child class and abstract class are those class which have atleast one abstract method .     
+Example : 
+abstract class Child {
+    public abstract void show();
+}
+class Parent extends Child {
+    public void show(){
+        system.out.println("abstract method")
+    }
+}
+
+7. What is the difference between an abstract method and final method in Java?Explain with an example?
+Ans : If a method is declared as final that that method can not be overridden if we try to override the method than that will result in "CompileTimeError" 
+If a method is declared a abstract that the only way to use it is by overriding that method in subclass
+Abstract method is considered as incomplete method while final method is considered as complete method.
+    Example : abstract method 
+
+    abstract class Child {
+    public abstract void show();
+}
+class Parent extends Child {
+    public void show(){
+        system.out.println("abstract method")
+    }
+}
+
+final method : 
+class A { 
+    final void m1 (){
+        system.out.println("final method")
+    }
+}
+
+8. What is the final class in Java?
+Ans : when a class is declared with final keyowrd than that is called a final class . A final class can not be inherited
+Final class helps in making immutable class like predefined class which can not be change example : String , Integer , StringBuffer etc . 
+Final class helps in preventing the inheritance 
+Every method declared inside the final class is final by default but every variable inside final class need to be final 
+final class helps in achieving the security while the OOPS concept such as polymorphism , inheritance  and abstraction are missing 
+If a class is complete than only it can be declared as final class .
+
+9. What is the difference between abstraction and encapsulation?
+Ans : abstraction is implemented using the abstract class and interface while Encapsulation is implemented by using sing access modifiers such as public , private and protected . 
+If there is atleast one abstract method in a class than that class must be declared as abstract class but for encapsulation there is no such condition 
+Object of Abstract class can not be made but Object of encapsulated class can be made 
+Abstraction is process of gaining information but Encapsulation is the process of containing information
+We can use Abstraction using abstract class and interfaces and we can use abstraction by getter and setter 
+
+10. Difference between Runtime and compile time polymorphism explain with an example
+Ans : polymorphism that exists at compile time is called compile time polymorphism such as method overloading and polymorphism that exists at runtime is called runtime polymorphism such as method overriding.
+Inheritance is not involved in compile time polymorphism and Inheritance is involved in run time polymorphism
+compile time polymorphism is less flexible as compared to runtime polymorphism
+compile time polymorphism is fast as the methods are known early at the time of compile time and runtime polymorphism is slow as the method need to be executed are known at runtime 
+method overloading is compile time polymorphism and method overriding is runtime polymorphism 
+method overloading can be performed with or without inheritance but for method overriding there must be inheritance
