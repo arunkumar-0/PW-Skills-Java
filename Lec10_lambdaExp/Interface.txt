@@ -1,0 +1,39 @@
+1. What is an interface in Java?
+Ans : It is similar to abstract class except the fact that whichever method will be written inside the interface will be abstract and public method by default.
+By default the variables will be "public static final"
+No constructor can be made of interface as it is incomplete class . 
+Interface provide more sharability to java. 
+Object of interface can not be made. 
+
+2. Which modifiers are allowed for methods in an Interface?Explain with an example
+Ans : for method only public and absract are allowed 
+Example : 
+interface A { 
+    public void show ();
+}
+class B implements A {
+    public void show (){
+        System.out.println("inside interface ")
+    }
+}
+class Interface {
+    public static void main (String []args){
+        B b = new B();
+        b.show();   
+    }
+}
+
+3. What is the use of interface in Java?
+Ans : It provide more sharability to programs . 
+It helps to achive full abstraction where we just want absract methods 
+We can use multiple inheritance in java using Interface which is not possible with class 
+
+4. What is the difference between abstract class and interface in Java?
+Ans: class which have atleast one absract method is called abstract class whereas class having only abstract method is called interface
+We can use multiple inheritance interface but not with abstract class 
+inheritance with abstract class is used with "extends" keyword and inheritance with interface is possible with "implements" 
+both interface and absract class can not have object 
+abstract class can have constructor but interface can not have constructor . 
+absract class can provide implementation of interface but interface cannot provide implementation of abstract class . 
+absract class use absract keyword and interface uses the keyword interface 
+absract class can have static , non-static , final , non-final variables and interface can only have static and final variables
