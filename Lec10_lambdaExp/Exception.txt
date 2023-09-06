@@ -1,0 +1,49 @@
+1. What are different types of Erorr in java ? 
+Ans : There are two types of errors in java : 
+1. syntax error 
+2. logical error 
+
+2. What is an Exception in java ?
+Ans: Exception are runtime error that are neither caused of syntax or logic. 
+
+3. How can you handle exceptions in Java? Explain with an example ? 
+Ans : we can hanlde exceptions by using try-catch block 
+try block : set of critical statements where there are chances of getting exception 
+catch block : the error is handled in catch block 
+
+public class Lec4 {
+    public static void main(String[] args) {
+        int num1 = 25;
+        int num2 = 0;
+        int result = 0;
+        int values[] = { 10, 8, 2, 75 };
+
+        try {
+            result = num1 / num2;
+            System.out.println(values[7]);
+        } catch (ArithmeticException obj) {
+            System.out.println("exception occured" + obj);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("array no. inaccessible");
+        }
+
+        System.out.println(result);
+        System.out.println("try catch block executed");
+    }
+
+}
+
+4. Why do we need exception handling in java?
+Ans : If there is no try-catch block for exception handeling than the program will terminate in between when the exception will occur . 
+
+5. What is the difference between exception and error in Java?
+Ans : Errors are usually caused by serious problems that cannot be recovered from, while exceptions are used to handle recoverable errors within a program.
+Errors occur at compile time and run time, which can terminate the compilation or execution. Exceptions occur only at run time, just that checked exceptions can be detected at compile time
+
+6. Name the different types of exceptions in Java.
+Ans: there are two types of Exception : 
+Checked : These are those exceptions fr which the compiler forces to handle that exception example : IoException
+Unchecked : These are those exception for which the compiler do not force to handle example : ArithmeticException , ArrayIndexOutOfBoundsException , etc 
+
+7. Can we just use try instead of finally and catch blocks?
+Ans: No , this will throw compile time error . We can remove finally or catch block but not both . 

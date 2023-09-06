@@ -1,0 +1,25 @@
+1. What is the lambda expression of Java 8?
+Ans: Lambda expression provide implementation of functional interface . It helps to reduce the code and help to create 
+syntax : (parameter-list) -> {body}
+
+It has 3 components : 
+Argument-list : It can be empty or no-empty 
+Arrow-token : It is used to link Argument-list and body of expression
+Body: Expression and statements for lambda expression 
+
+2. Can you pass lambda expressions to a method? When?
+Ans : Yes, you can pass a lambda expression to a method provided it is expecting a functional interface. For
+example, if a method is accepting a Runnable, Comparable or Comparator then you can pass a lambda
+expression to it because all these are functional interfaces in Java 8.
+
+3. What is the functional interface in Java 8?
+Ans : If any java interfaceallow only one abstract method than it is functional interface . 
+To make an interface fuctional interface then we have to use the following annotation @functionalInterface
+
+
+4. What is the benefit of lambda expressions in Java 8?
+Ans : It removes the code anonymous class which helps to write very less code and it provides implementation of functional interface.
+
+5. Is it mandatory for a lambda expressio
+Ans: No, it's not mandatory for a lambda expression to have parameters, we can define a lambda expression
+without parameter.
