@@ -1,0 +1,109 @@
+1. What  is the Collection framework in Java?
+Ans: Collection is a set of classs and interaces which help to store homogeneous as well as hetrogeneous data . 
+ It is dynamic in nature 
+ All the data stored in Collection is in the form of objects
+ It implements using standard data structue so , ready made methods are available 
+
+2. What is the difference between ArrayList and LinkedList?
+Ans:
+ArrayList :  It is a dynamic array data structure 
+Duplicates are allowed 
+Insertion order is 
+Insertion order is preserved through index 
+Hetrogeneous objects are allowed 
+null insertion is allowed 
+It takes less memory 
+the data is stored in continous form 
+it is good for  storing and fetching the data 
+
+LinkedList : 
+Doubly linked list data structure is used 
+It is good for manupulating the data 
+the memory is not given in continous form 
+LinkedList does not provide random access
+duplicates are allowed 
+null insertion is possible 
+
+3. What is the difference between Iterator and ListIterator?
+Ans: Iterator : It is used to fetch the data while using the collection 
+It is universal for all collections 
+It can move is forward direction only .
+
+ListIterator : It can traverse in both direction forward as well as backward . 
+It can only be used with specific lists only i.e ArrayList and LinkedList 
+ListIterator is child interace of Iterator.
+
+4.  What is the difference between Iterator and Enumeration?
+Ans: Enumeration : we can use Enumeration to get objects one by one . 
+To create Enumeration object we use element().
+It is not a universal cursor 
+It can perform only traverse operation 
+It is faster 
+
+Iterator : It is universal cursor for collection . 
+It can move in forward direction only . 
+It is slower the Enumeration. 
+It perform perform remove operation while traversing 
+
+5. What is the difference between List and Set?
+Ans: List : It allows duplicates 
+Multiple null elements are allowed
+It implements ArrayList , LinkedList , Vector , Stack . 
+Insertion order is preserved in the list 
+The ListIterator() is used to iterate the list elements.
+they can be accessed based on their position
+
+Set : It does not allow duplicate values 
+Insertion order is not preserved in set 
+It implements Hashset , linked Hashset .
+the are not indexed so, cannot access based on their position
+only one null element can be stored at a time 
+the Iterator() method is used to iterate the elements.
+
+6. What is the difference between HashSet and TreeSet?
+Ans:
+HashSet : It uses Hash table to store data 
+Duplicate values are not allowed 
+The order of insertion is not preserved 
+It is best for searching operation 
+null insertion is possible
+It is unordered collection 
+
+TreeSet : It uses Binary Search tree to store data 
+Order of insertion is not preserved 
+It follows in-order traversal 
+It is a ordered collection
+Hetrogeneous elements are not allowed
+null insertion possible only at once 
+
+7. What is the difference between Array and ArrayList?
+Ans:
+Array : Array can store homogeneous data 
+array have better performance than ArrayList
+The size of array is fixe that means they are not dynamic
+Array are mutable 
+Array can be initialize at the time of declaration as well as later on.
+
+ArrayList : 
+ArrayList is used to store objects
+They are dynamic in nature 
+They hold homogeneous as well as hetrogeneous type of data 
+they provide more method for manupulating the data 
+ArrayList require method to add the data to the collection 
+ArrayList are mutable 
+
+8. What is a Map in Java?
+Ans: It represents a group of individual objects as a key-value pair 
+It helps to achieve uniqueness when we have similar typr of data 
+The key must be unique and the value may or may not be unique
+
+9. What are the commonly used implementations of Map in Java?
+Ans: The commonly used implementations of Map in Java are HashMap, TreeMap, LinkedHashMap, and
+ConcurrentHashMap.
+
+10.  What is the difference between HashMap and TreeMap?
+Ans: HashMap stores data in unordered collection while the TreeMap stores data in ordered collection.
+The data structue used by HashMap is HashTable and the TreeMap uses natural ordering or custom comparitor.
+
+11. How do you check if a key exists in a Map in Java?
+Ans : We can use ContainKey() method or get() method 
