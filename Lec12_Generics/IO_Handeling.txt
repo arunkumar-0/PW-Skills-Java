@@ -1,0 +1,45 @@
+1. What is Input and Output Stream in Java?
+Ans : Input Stream is used to read data from the file while the Output Stream is used to write data in the file . 
+
+2. What are the methods of OutputStream?
+Ans:  write() - writes the specified byte to the output stream
+write(byte[] array) - writes the bytes from the specified array to the output streamO
+flush() - forces to write all data present in the output stream to the destination
+close() - closes the output stream
+
+3. What is serialization in Java?
+Ans: The process of converting object in byte form so , that it can be more protectected even after hacking . In java , serialization is achieved by serializable interface 
+
+4. What is the Serializable interface in Java?
+Ans: It is a marker interface used to mark serialized class . It has no method inside that means we need not to define any method . 
+
+5. What is deserialization in Java?
+Ans: deserialization is the process of converting the byte form of the object into the normal object form after the object has been serialized . 
+
+6. How is serialization achieved in Java?
+Ans serialization is achieved in java by implementing the serializable interface which has no method in it . when a object is serialized it's state is converted into the stream fo the bytes . 
+
+7. How is deserialization achieved in Java?
+Ans: Deserialization is achieved in Java by reading a stream of bytes and using them to recreate the original object instance. This is done by calling the readMbject() method of an bjectInputStream instance
+
+8. How can you avoid certain member variables of class from getting Serialized?
+Ans : we can avoid certain member variables of class from getting serializable by using transient or static . 
+
+9. What classes are available in the Java IO File Classes API?
+Ans: File
+RandomAccessFile
+FileInputStream
+FileReader
+FileMutputStream
+FileWriter
+
+10. What is Difference between Externalizable and Serialization interface ?
+Ans: Serializable : it is a marker interface 
+it provide less control 
+constructor in not called during deserialization
+over serialization it not necessary to define read object and write object
+
+Externalizable: It is not a marker interface 
+Externalizable provides more control 
+constructor in called during deserialization
+It is important to override write external and read external method
