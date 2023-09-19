@@ -1,0 +1,101 @@
+Q3. What is the difference between collections and streams?Explain with an Example
+Ans: 
+Streams : To preserve the original data we make seprate sream and edit in that stream only 
+multiple operations on a single stream are not possible they consumable in nature 
+streams support sequential and parallel processing 
+It doesn't store data , it operate  on the source data 
+
+collections : They store data that the data structure currently has in particular data structure 
+multiple operations on a single collections can be done that means they are not consumable .
+It support only parallel processing 
+They don't use functional interface
+
+Example : collection
+
+import java.util.*;
+
+class collection {
+    public static void main(String[] args) {
+        // Array List
+        ArrayList al = new ArrayList();
+
+        al.add(200);
+        al.add("Arun Kumar");
+        al.add(23.45);
+        System.out.println(al);
+
+        ArrayList al1 = new ArrayList();
+        al1.add("abcd");
+        al1.addAll(al);
+        System.out.println(al1);
+
+        al1.add(2, "3rd index");
+        System.out.println(al1);
+
+    }
+}
+
+Example : Streams
+
+import java.util.*;
+import java.util.stream.*;
+
+public class Lec3 {
+    public static void main(String[] args) {
+
+        List<Integer> list = Arrays.asList(20, 78, 2, 8, 1, 3);
+
+        
+
+        Stream<Integer> streamData = list.stream();
+
+        Stream<Integer> filtered = streamData.filter(n -> n % 2 == 0);
+        Stream<Integer> sorted = filtered.sorted();
+
+        Stream<Integer> map = sorted.map(n -> n * 2);
+
+        map.forEach(n -> System.out.println(n));
+         }
+        }
+
+4. What is enums in java? explain with an example
+Ans: Enum are used to define a group of named constant 
+Enums are non instantaneous that means their objec can not be made 
+By using enum we can define our own data types which are also enumerated data types 
+Inside we can write variable , constructor and methods 
+
+Example : 
+enum Week {
+    MON, TUE, WED, THU, FRI, SAT, SUN
+}
+
+public class Enum {
+    public static void main(String[] args) {
+        Week w = Week.MON;
+        System.out.println(w);
+        int index = Week.FRI.ordinal();
+        System.out.println(index);
+
+        Week wr[] = Week.values();
+        for (Week w1 : wr) {
+            System.out.println(w1);
+
+        }
+        ;
+    }
+}
+
+5. What are in built annotations in java
+Ans : The in built annotations are those metadata which are provided by java itself to provide additional information about the element 
+They are used by  compiler , runtime and other tools to generate code , runtime check and provide documentation.
+they are represented by '@'.
+
+the built in annotations are 
+@SuppressWarnings
+@FunctionalInterface
+@Retention
+@Target
+@Documented
+@Inherited
+@Override
+@Deprecated
