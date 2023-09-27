@@ -1,0 +1,96 @@
+1. What do you mean by Multithreading? Why is it important?
+Ans : Threads are lightweight process and multithreading is the ability of CPU to execute multiple threads at the same time . It is important because it saves CPU time and helps to excute multiple threads usig the single process resources . It makes the execution of the program faster by dividing the process in multiple threads and executing simultaneously . 
+
+2. What are the benefits of using Multithreading?
+Ans : The benefits of usig multithreading are following : 
+Resource sharing by multiple threads
+Thread synchronization functions could be used to improve inter-process communication.
+Threads have a minimal influence on the system's resources.
+Allow system to run continously even after one part is blocked 
+Saves times and parallelism tasks 
+Improves the responsiveness and economic 
+
+3. What is Thread in Java?
+Ans: Threads are lightweight processes which can be manaed independently . threads have seprate flow of execution. Basically , when a process is divided into multiple sub processes and that sub process of the process are called thread . We can perform complicated task easily by using threads .
+In java threads can be implemented by two ways : 
+by extended Thread class 
+by implementing runnable interface 
+
+4. What are the two ways of implementing thread in Java?
+Ans : 
+a. By extending thread class : 
+
+class Demo extends Thread {
+    public void run (){
+        System.out.println("By thread class");
+    }
+
+    public void main (String[]args){
+        Demo d = new Demo();
+        d.start();
+    }
+}
+
+b. By implementing runnable interface 
+
+class Calc implements Runnable {
+    public void run (){
+        System.out.println("run");
+    }
+}
+class Msg implements Runnable {
+    public void run (){
+        System.out.println("2nd thread");
+
+    }
+}
+class Demo {
+    public static void main (String[]args){
+        Calc c1 = new Calc();
+        Msg m1 = new Msg();
+        Thread t1 = new Thread(c1);
+        Thread t2 = new Thread(m1);
+        t1.start();
+        t2.start(); 
+    }
+}
+
+5. What's the difference between thread and process?
+Ans: Thread: Thread are lightweight processes and a thread itself is a part of a thread . it is the smallest unit of a process. 
+process : It is the program under execution and A process is handeled by process control block . 
+
+6.How can we create daemon threads?
+Ans: We can create daemon threads in java using the thread class setDaemon(true). It is used to mark the
+current thread as daemon thread or user thread. isDaemon() method is generally used to check whether the
+
+public class D extends Thread {
+    public D(String name ){
+        super(name);
+    }
+    public void run (){
+        if (Thread.currentThread().isDaemon()){
+            System.out.println(getName());
+
+        }else{
+            System.out.println(getName());
+        }
+    }
+    public static void main (String []args){
+        D t = new D("t");
+        D t1 = new D("t1");
+        t.setDaemon(true);
+        t.start();
+        t.setDaemon(true);
+        t1.start();
+    }
+}
+
+7. What are the wait() and sleep() methods?
+Ans : wait() : It causes current thread to wait and go to
+sleep until some other threads call the notify () or notifyAll() method for the object’s monitor (lock). It simply
+releases the lock and is mostly used for inter-thread communication. It is defined in the object class, and
+should only be called from a synchronized context.
+
+sleep(): It pauses or stops the execution of the current thread for
+some specified period. It doesn’t release the lock while waiting and is mostly used to introduce pause on
+execution. It is defined in thread class, and no need to call from a synchronized context.
