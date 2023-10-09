@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Array2D.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Array2D.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Array2D.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Array2D.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Array2D.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Lec15_Array.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
             "name": "Que2",
             "request": "launch",
             "mainClass": "Lec13_API.Que2",
