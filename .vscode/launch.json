@@ -8,6 +8,55 @@
             "type": "java",
             "name": "Que5",
             "request": "launch",
+            "mainClass": "Lec16_Recursion.Que5",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "LinkedList.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "LinkedList.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Lec16_Recursion.Que4",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Lec16_Recursion.Que3",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Lec16_Recursion.Que2",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Lec16_Recursion.Que1",
+            "projectName": "PW Skills Assignment_e5e9da0d"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
             "mainClass": "Lec15_Array.Array2D.Que5",
             "projectName": "PW Skills Assignment_e5e9da0d"
         },
