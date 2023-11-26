@@ -2,7 +2,7 @@ package Lec16_Recursion;
 
 import java.util.Scanner;
 
-// Q1 : Given an integer, find out the sum of its digits using recursion..
+// Q1 : Given an integer, find out the sum of its digits using recursion.
 
 public class Que1 {
     public static int findsum(int n) {
